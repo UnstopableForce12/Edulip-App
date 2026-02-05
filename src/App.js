@@ -1,5 +1,3 @@
-CI = false;
-
 import React, { useState, useEffect } from 'react';
 import { 
   BookOpen, LogOut, Plus, Search, CheckCircle, XCircle, 
