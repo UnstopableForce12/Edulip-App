@@ -13,8 +13,8 @@ import {
   doc, onSnapshot, query, serverTimestamp 
 } from 'firebase/firestore';
 
-// Menonaktifkan peringatan ESLint
-/* eslint-disable no-unused-vars */
+// Menonaktifkan peringatan ESLint untuk variabel global yang tidak terdefinisi
+/* eslint-disable no-unused-vars, no-undef */
 
 // --- KONFIGURASI FIREBASE ---
 // Gunakan environment variables atau konfigurasi default jika di lingkungan canvas
